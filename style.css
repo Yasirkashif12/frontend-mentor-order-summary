@@ -62,8 +62,8 @@ body {
 
 .box2 {
   display: flex;
-  min-width: 50vw;
-  border-radius: 10px;
+/*   min-width: 50vw;
+  border-radius: 10px; */
   margin-top: 20px;
   background-color: hsl(225, 100%, 98%);
 }
