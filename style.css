@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: 'Red Hat Display', sans-serif; */
+  background-color: hsl(225, 100%, 94%);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.image img {
+  display: block;
+  width: 350px;
+  border: 1px solid black;
+  border-radius: 7px;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 50vw;
+  flex-direction: column;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+}
+
+.content h1 {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  font-size: 22px;
+  font-family: 'Red Hat Display', sans-serif;
+  border-radius: 4px;
+  margin-top: 40px;
+}
+
+#p1 {
+  margin-top: 15px;
+}
+
+.para {
+  font-size: 16px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.box2 {
+  display: flex;
+  min-width: 50vw;
+  border-radius: 10px;
+  margin-top: 20px;
+  background-color: hsl(225, 100%, 98%);
+}
+
+.box2 img {
+  width: 40px;
+  margin: 13px 15px;
+}
+
+#plan {
+  margin-top: 10px;
+  font-weight: 600;
+  color: black;
+}
+
+.plan2 {
+  margin-top: 25px;
+  color: hsl(224, 23%, 55%);
+  margin-left: -83px; /* <-- Negative margin */
+}
+
+
+.anchor {
+  margin-top: 20px;
+  margin-left: 85px;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+}
+
+.anchor:hover {
+  color: hsl(245, 75%, 52%);
+}
+
+.box3 {
+  margin-top: 25px;
+}
+
+#blue {
+  padding: 10px 80px;
+  text-align: center;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  border-radius: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 16px;
+  border: none;
+}
+
+#blue:hover {
+  background-color: hsl(245, 83%, 68%);
+}
+
+.cancal {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  font-size: 15px;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.cancal:hover {
+  color: hsl(223, 47%, 23%);
+}
